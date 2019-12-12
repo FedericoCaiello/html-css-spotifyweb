@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  background-color: red;
+}
+
+/* Flex */
+.main {
+  display: flex;
+  flex-direction: row;
+  height: calc(100% - 90px);
+  overflow: hidden;
+}
+/* main nav */
+.main-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 200px;
+  height: 100%;
+}
+.main-nav-header {
+  background-color: black;
+}
+h1 {
+color: white;
+font-size: 28;
+font-family: 'Varela Round', sans-serif;
+margin: 20px;
+}
+.logo_spotify{
+  font-size: 30px;
+}
+.main-nav-header li a{
+  padding: 5px;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: 'Varela Round', sans-serif;
+  color: grey;
+  text-decoration: none;
+}
+.display_flex{
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+.main-nav-header li img {
+  font-size: 20px;
+  margin: 10px;
+  width: 25px;
+}
+.main-nav-header li a:hover {
+  color: white;
+}
+.main-nav-header li:hover {
+  border-left: 2px solid green;
+}
+/* nav-header */
+/* nav-main */
+h2{
+  color: white;
+  font-size: 12px;
+  font-family: 'Varela Round', sans-serif;
+  margin: 10px 0;
+}
+.playlist a i{
+  font-size: 30px;
+  color: lightgrey;
+  vertical-align: middle;
+}
+.playlist a {
+  color: grey;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: 'Varela Round', sans-serif;
+}
+.playlist p a:hover {
+  color: white;
+}
+.playlist p a i:hover {
+  color: white;
+}
+
+.main-nav-main {
+  min-height: 150px;
+  overflow-y: auto;
+  flex-grow: 2;
+  background-color: black;
+}
+.playlist {
+  list-style: none;
+  padding: 10px 20px;
+  background: black;
+}
+.playlist li {
+  color: grey;
+  font-size: 12px;
+  font-family: 'Varela Round', sans-serif;
+  margin: 10px 0;
+}
+.playlist li:hover {
+  color: white;
+}
+/* nav main */
+/* main nav footer */
+.main-nav-footer {
+  background-color: black;
+  padding: 10px;
+}
+.main-nav-footer .riga  {
+  padding: 10px;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 12px;
+  border-bottom: 2px solid grey;
+}
+.main-nav-footer a {
+  text-decoration: none;
+  color: grey;
+}
+.main-nav-footer a i {
+  margin: 10px 5px;
+}
+.main-nav-footer P a:hover {
+  color: white;
+}
+.main-nav-footer img {
+  margin: 6px;
+  width: 20px;
+  border-radius: 10px;
+  background: grey;
+}
+.nome-utente {
+  margin: 10px 0;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+/* main content */
+.main-content {
+  width: calc(100% - 200px);
+  height: 100%;
+  background-color: orange;
+  overflow-y: scroll;
+}
+.call-to-action {
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: calc(100% - 320px);
+  height: 90px;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.btn {
+  display: inline-block;
+  font-size: 20px;
+  background-color: white;
+}
+
+/* footer */
+.footer {
+  width: 100%;
+  height: 90px;
+  background-color: pink;
+}
