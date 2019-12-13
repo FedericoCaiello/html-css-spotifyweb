@@ -151,7 +151,7 @@ h2{
 .main-content {
   width: calc(100% - 200px);
   height: 100%;
-  background-color: orange;
+  background-color: #161826;
   overflow-y: scroll;
 }
 .call-to-action {
@@ -180,7 +180,29 @@ h2{
   margin-right: 10px;
   transform: scale(1.1);
 }
+.nav_main_content {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 120px;
+}
+.nav_main_content li {
+  list-style: none;
+  padding: 10px;
+}
 
+.nav_main_content li a{
+  text-decoration: none;
+  font-size: 12px;
+  font-family: 'Varela Round', sans-serif;
+  color: white;
+}
+.nav_main_content li a:hover {
+  color: white;
+}
+.nav_main_content li:first-of-type {
+  border-bottom: 2px solid green;
+}
 /* footer */
 .footer {
   width: 100%;
@@ -188,10 +210,10 @@ h2{
   background-color: pink;
 }
 
-@query screen and (mix-width: 768px); {
+ @media screen and (max-width: 768px); {
   .display_xs{
-    display: flex;
-    flex-direction: column;
-    display: none;
+    display:none;
+
+
   }
 }
