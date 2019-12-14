@@ -207,6 +207,7 @@ h2{
 h3 {
   color: white;
   padding: 15px;
+  font-family: 'Varela Round', sans-serif;
 }
 h4 {
   color: white;
@@ -215,18 +216,17 @@ h4 {
   font-family: 'Varela Round', sans-serif;
   font-weight: bold;
 }
-.content_main_flex li img {
+.content_main_flex img {
   width: 250px;
 }
-.content_main_flex li {
+.box {
   list-style: none;
   padding: 15px;
 }
-.content_main_flex ul {
+.content_main_flex {
   display: flex;
-  flex-direction: row;
 }
-.content_main_flex ul li p {
+.content_main_flex .box p {
   text-align: center;
   font-size: 15px;
   font-weight: bold;
@@ -234,14 +234,17 @@ h4 {
   color: grey;
   font-family: 'Varela Round', sans-serif;
 }
-
-.content_main_flex a {
-  display: flex;
+.sotto_h3{
+  color: grey;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: 'Varela Round', sans-serif;
+  padding: 5px 15px;
+}
+.border_radius_img {
+  border-radius: 150px;
 }
 
-.content_main_flex a:hover {
-  filter: opacity(60%);
-}
 
 /* footer */
 .footer {
