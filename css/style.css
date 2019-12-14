@@ -316,9 +316,6 @@ h5 {
 .big {
   font-size: 25px;
 }
-.right {
-  width: 30%;
-}
 .time {
   display: flex;
   justify-content: center;
@@ -335,4 +332,27 @@ h5 {
   padding: 0px 25px;
   font-family: 'Varela Round', sans-serif;
   font-weight: bold;
+}
+
+.right {
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+  width: 30%;
+}
+.right a {
+  display: flex;
+  justify-content: center;
+  align-self: baseline;
+  padding: 20px;
+}
+.right a i {
+  color: white;
+}
+.last_line {
+  width: 120px;
+  border-bottom: 2px solid grey;
+}
+.right a i:hover {
+  transform: scale(1.1);
 }
