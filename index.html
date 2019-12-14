@@ -15,20 +15,24 @@
       <main class="main">
         <section class="main-nav">
           <section class="main-nav-header">
-            <h1><i class="fab fa-spotify logo_spotify display_xs"></i> Spotify</h1>
+            <h1 class="display_none_xs"><i class="fab fa-spotify logo_spotify"></i> Spotify</h1>
+            <h1><i class="fab fa-spotify logo_spotify display_none_lg"></i></h1>
             <ul>
-              <li class="display_flex"><img src="img/home.svg" alt="home"><a href="#"> Home</a></li>
-              <li class="display_flex"><img src="img/search.svg" alt="search"><a href="#"> Cerca</a></li>
-              <li class="display_flex"><img src="img/libreria.svg" alt="libreria"><a href="#"> La tua libreria</a></li>
+              <li class="display_flex display_none_xs"><img src="img/home.svg" alt="home"><a href="#"> Home</a></li>
+              <li class="display_flex display_none_xs"><img src="img/search.svg" alt="search"><a href="#"> Cerca</a></li>
+              <li class="display_flex display_none_xs"><img src="img/libreria.svg" alt="libreria"><a href="#"> La tua libreria</a></li>
+              <li class="display_flex display_none_lg"><img src="img/home.svg" alt="home"><a href="#"></a></li>
+              <li class="display_flex display_none_lg"><img src="img/search.svg" alt="search"><a href="#"></a></li>
+              <li class="display_flex display_none_lg"><img src="img/libreria.svg" alt="libreria"><a href="#"></a></li>
             </ul>
           </section>
-          <section class="playlist">
+          <section class="playlist display_none_xs">
             <h2>PLAYLIST</h2>
             <p>
               <a href="#"><i class="fas fa-plus-square"></i> Crea Playlist</a>
             </p>
           </section>
-          <section class="main-nav-main">
+          <section class="main-nav-main display_none_xs">
             <ul class="playlist">
               <li>Nome Playlist</li>
               <li>Nome Playlist</li>
@@ -41,8 +45,10 @@
             </ul>
           </section>
           <section class="main-nav-footer">
-            <p class="riga"><a href="#"><i class="far fa-arrow-alt-circle-down logo_arrow_down"></i> Installa app</a></p>
-            <p class="nome-utente"><img class="nome-utente" src="img/profile.svg" alt="">Federico Caiello</p>
+            <p class="riga display_none_xs"><a href="#"><i class="far fa-arrow-alt-circle-down logo_arrow_down"></i> Installa app</a></p>
+            <p class="riga display_none_lg"><a href="#"><i class="far fa-arrow-alt-circle-down logo_arrow_down"></i></a></p>
+            <p class="nome-utente display_none_xs"><img class="nome-utente" src="img/profile.svg" alt="">Federico Caiello</p>
+            <p class="nome-utente display_none_lg"><img class="nome-utente" src="img/profile.svg" alt=""></p>
 
 
           </section>
@@ -68,36 +74,54 @@
           </div>
           <div class="content_main_flex">
               <div class="box">
+                <div class="play_hover">
+                  <i class="far fa-play-circle"></i>
+                </div>
                 <img src="img/metal_lifting.jpg" alt="metal">
                 <h4>Heavy Metal</h4>
                 <p>Subtitle</p>
 
             </div>
             <div class="box">
+              <div class="play_hover">
+                <i class="far fa-play-circle"></i>
+              </div>
               <img src="img/stranger.jpeg" alt="stranger">
               <h4>Stranger Things, Vol.1 (a Netflix Original Series Soundtrack)</h4>
               <p>Kyle Dixon & Michael Stein</p>
 
             </div>
             <div class="box">
+              <div class="play_hover">
+                <i class="far fa-play-circle"></i>
+              </div>
               <img src="img/aquietplace.jpeg" alt="aquietplace">
               <h4>A quiet place</h4>
               <p>Subtitle</p>
 
             </div>
             <div class="box">
+              <div class="play_hover">
+                <i class="far fa-play-circle"></i>
+              </div>
               <img src="img/split.jpeg" alt="split">
               <h4>Split</h4>
               <p>Subtitle</p>
 
             </div>
             <div class="box">
+              <div class="play_hover">
+                <i class="far fa-play-circle"></i>
+              </div>
               <img src="img/cure.jpeg" alt="cure">
               <h4>A cure for wellness</h4>
               <p>subtitle</p>
 
             </div>
             <div class="box">
+              <div class="play_hover">
+                <i class="far fa-play-circle"></i>
+              </div>
               <img src="img/sinister.jpeg" alt="sinister">
               <h4>Sinister</h4>
               <p>Subtitle</p>
@@ -111,11 +135,17 @@
           </div>
           <div class="content_main_flex">
             <div class="box">
+              <div class="play_hover">
+                <i class="far fa-play-circle"></i>
+              </div>
               <img src="img/radar.jpeg" alt="radar">
               <h4>Release Radar</h4>
 
             </div>
             <div class="box">
+              <div class="play_hover">
+                <i class="far fa-play-circle"></i>
+              </div>
               <img src="img/mixdaily.jpeg" alt="mixdaily">
               <h4>Daily Mix 1</h4>
             </div>
@@ -127,11 +157,17 @@
           </div>
           <div class="content_main_flex">
             <div class="box">
+              <div class="play_hover hover_border">
+                <i class="far fa-play-circle"></i>
+              </div>
               <img class="border_radius_img" src="img/youg.jpeg" alt="Lana del Rey">
               <h4>Lana del Rey</h4>
 
             </div>
             <div class="box">
+              <div class="play_hover hover_border">
+                <i class="far fa-play-circle"></i>
+              </div>
               <img class="border_radius_img" src="img/einaudi.jpeg" alt="Ludovico Einaudi">
               <h4>Ludivico Einaudi</h4>
             </div>
@@ -142,56 +178,53 @@
 
       <!-- footer -->
       <footer class="footer">
-        <div class="left">
-          <img src="img/sinister.jpeg" alt="Sinister">
-        </div>
-        <div class="Nome_brano">
-          <h5>Sinister</h5>
-          <p>Brano nome</p>
-        </div>
-        <div class="icone">
-          <a href="#"><i class="far fa-heart"></i></a>
-          <a href="#"><i class="far fa-folder"></i></a>
-        </div>
-
-
-
-        <div class="center">
-          <div class="button_time">
-            <a href="#"><i class="fas fa-random"></i></a>
-            <a href="#"><i class="fas fa-step-backward"></i></a>
-            <a href="#"><i class="far fa-play-circle big"></i></a>
-            <a href="#"><i class="fas fa-step-forward"></i></a>
-            <a href="#"><i class="fas fa-redo"></i></a>
-
-
+        <div class="canzone-footer">
+           <img id="icona_canzone" class="foto_canzone" src="img/sinister.jpeg" alt="">
+          <div>
+            <h5>Sinister</h5>
+            <a href="#">Brano nome</a>
           </div>
-          <div class="time">
-            <div class="numero">
-              <p>0.25</p>
-
-            </div>
-            <div class="line_time">
-
-
-            </div>
-            <div class="numero">
-              <p>4.35</p>
-
-            </div>
-
-
+          <div>
+            <a href="#"><i class="fas fa-heart"></i></a>
+            <a href="#"><i class="fas fa-folder"></i></a>
           </div>
-
         </div>
-        <div class="right">
-          <a href="#"><i class="fas fa-bars"></i></a>
-          <a href="#"><i class="fas fa-desktop"></i></a>
-          <a href="#"><i class="fas fa-volume-up"></i></a>
-          <a class="last_line" href="#"></a>
-
+        <div class="play-footer">
+          <div class="prova">
+            <i class="fas fa-random"></i>
+            <i class="fas fa-step-backward"></i>
+            <i class="fas fa-play-circle"></i>
+            <i class="fas fa-step-forward"></i>
+            <i class="fas fa-undo-alt"></i>
+          </div>
+          <div class="play-time">
+            <p>43s</p>
+            <div class="bar-time">
+              <div class="bar-time-opacity">
+                <i class="fas fa-circle"></i>
+              </div>
+            </div>
+            <p>2:40 min</p>
+          </div>
         </div>
+        <!-- <div class="footer_nav_right">
+          <i class="fas fa-bars"></i>
+          <i class="fas fa-desktop"></i>
+          <i class="fas fa-volume-up"></i>
+        </div> -->
 
+        <div class="footer_nav_right">
+          <ul>
+            <li><i class="fas fa-bars"></i></li>
+            <li><i class="fas fa-desktop"></i></li>
+            <li><i class="fas fa-volume-up"></i></li>
+          </ul>
+          <div class="volume">
+            <div class="opacity-volume">
+              <i class="fas fa-circle"></i>
+            </div>
+          </div>
+        </div>
       </footer>
       <!-- /footer -->
 
