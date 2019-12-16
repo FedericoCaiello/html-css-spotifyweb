@@ -191,6 +191,11 @@ h2{
   list-style: none;
   padding: 10px;
 }
+.first_child  {
+  width: 40px;
+  border-bottom: 2px solid lime;
+  margin-left: 18px;
+}
 
 .nav_main_content li a{
   text-decoration: none;
@@ -202,9 +207,6 @@ h2{
 .nav_main_content li a:hover {
   color: white;
 }
-/* .nav_main_content li:first-of-type {
-  border-bottom: 2px solid green;
-} */
 h3 {
   color: white;
   padding: 15px;
@@ -310,6 +312,10 @@ h4 {
   text-decoration: none;
   color: #3A3A3A;
 }
+.brano_nome:hover {
+  color: white;
+  text-decoration: underline;
+}
 .canzone-footer .fas {
   margin-left: 20px;
 }
@@ -346,12 +352,16 @@ h4 {
   justify-content: center;
 }
 .prova i {
-  padding: 10px;
+  font-size: 20px;
+  padding: 15px;
   color: white;
 }
 .prova i:hover {
   transform: scale(1.2);
   cursor: pointer;
+}
+.prova .fa-play-circle {
+  font-size: 25px;
 }
 
 .play-time {
@@ -433,7 +443,7 @@ h4 {
   color: white;
   position: absolute;
   top:-10px;
-  left:0;
+  left:-10px;
   display: none;
 }
 .volume:hover{
